@@ -1,0 +1,64 @@
+.HomeBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1000;
+    object-fit: cover;
+}
+
+/* Style Code For Home Container </> */
+.Home {
+    width: 100%;
+    height: 80.5vh;
+    display: flex;
+    align-items: center;
+}
+
+.Home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(31, 39, 43, 0.75);
+    z-index: -10;
+}
+
+.HomeContainer {
+    width: 86%;
+    margin: auto;
+}
+
+.HomeContainer h6 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.HomeContainer h2 {
+    margin: 20px 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.HomeContainer p {
+    width: 43%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.HomeContainer p a {
+    color: rgb(51, 204, 255);
+    text-decoration: none;
+}

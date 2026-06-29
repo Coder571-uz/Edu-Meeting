@@ -1,0 +1,93 @@
+.UniversityFacts {
+    width: 100%;
+    background: url(../../images/facts-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 140px 0px 125px 0px;
+    color: #fff;
+}
+
+/* Style Code For University Facts Container </> */
+.UniversityFactsContainer {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+
+/* Style Code For U.F.C. Item First </> */
+.UFCItemFirst h1 {
+    margin: 0px 0px 50px 0px;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* div => UFCItemFirstGrid </> */
+.UFCItemFirstGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4%;
+}
+
+.UFCItemFirstGrid div div {
+    background: rgba(250, 250, 250, 0.15);
+    padding: 25px 30px 35px 30px;
+    margin: 0px 0px 25px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.UFCItemFirstGrid div h1 {
+    padding: 0px;
+    margin: 5px 0px;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(245, 164, 37);
+}
+
+.UFCItemFirstGrid div h5 {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* div => UFCItemFirstGridDiv ( ikkinchi divni pastga tushurish uchun ) */
+.UFCItemFirstGridDiv {
+    margin: 30px 0px 0px 0px;
+}
+
+/* Style Code For UFC Item First </> */
+.UFCItemSecond {
+    position: relative;
+}
+
+.UFCItemSecond a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.UFCItemSecond a:hover {
+    color: #d5d5d5;
+
+}
+
+.UFCItemSecond a img {
+    width: 560px;
+    height: 400px;
+    margin: 70px 0px 0px 50px;
+    border-radius: 20px;
+}
+
+.UFCItemSecond span {
+    font-size: 65px;
+    position: absolute;
+    top: 215px;
+    right: 250px;
+    z-index: 1;
+}

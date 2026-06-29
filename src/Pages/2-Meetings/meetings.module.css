@@ -1,0 +1,138 @@
+/* Style Code For Upcoming Meetings </> */
+.UpcomingMeetings {
+    width: 100%;
+    height: 58.6vh;
+    padding: 230px 0px 120px 0px;
+    background: url(../../images/heading-bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.UpcomingMeetings h6 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.UpcomingMeetings h1 {
+    padding: 0px;
+    margin: 20px 0px;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Style Code For Meetings Items </> */
+.MeetingsItems {
+    min-height: 100vh;
+    padding: 140px 0px 0px 0px;
+    background: url(../../images/meetings-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(31, 39, 43);
+}
+
+/* Style Code For Meetings Items Container </> */
+.MeetingsItemsContainer {
+    width: 85%;
+    margin: auto;
+    padding: 140px 0px 0px 0px;
+}
+
+.MIContainerButton {
+    padding: 0px 0px 70px 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+/* Style Code For M.I. Container Grid </> */
+.MIContainerGrid {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2%;
+}
+
+/* Style Code For M.I. Container Grid Item </> */
+.MIContainerGridItem {
+    border-radius: 25px 25px 20px 20px;
+    background: #fff;
+    position: relative;
+}
+
+.MIContainerGridItem img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.MICGItemDiv {
+    display: flex;
+    padding: 30px;
+    gap: 6%;
+}
+
+/* Style Code For M.I.C.G. Item Month Day </> */
+.MICGItemMonthDay {
+    text-align: center;
+    color: rgb(161, 44, 47);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.MICGItemMonthDay h4 {
+    color: rgb(31, 39, 43);
+}
+
+/* Style Code For M.I.C.G. Item Title Disc </> */
+.MICGItemTitleDisc h5 {
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.MICGItemTitleDisc p {
+    font-size: 14px;
+
+}
+
+/* Style Code For M.I.C.G. Item Price </> */
+.MICGItemPrice {
+    padding: 7px 12px;
+    border-radius: 10px;
+    position: absolute;
+    background: #fff;
+    top: 20px;
+    left: 25px;
+    font-weight: 600;
+}
+
+/* Style Code For CopyRight </> */
+.StyleMeetingsCopyRight {
+    width: 100%;
+    padding: 50px 0px 40px 0px;
+    border-top: 0.800px solid rgba(250, 250, 250, 0.15);
+    margin: 140px 0px 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.StyleMeetingsCopyRight a {
+    color: rgb(245, 164, 37);
+    text-decoration: none;
+}

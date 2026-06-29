@@ -1,0 +1,66 @@
+.OurPopular {
+    width: 100%;
+    background: url(../../images//meetings-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 140px 0px;
+    background-position: center;
+}
+
+/* Style Code For Our Popular Contianer </> */
+.OurPopularContianer {
+    width: 85%;
+    margin: auto;
+}
+
+.OurPopularContianer h4 {
+    margin: 0px 0px 50px 0px;
+    border-bottom: 0.800px solid rgb(71, 71, 71);
+    padding: 0px 0px 20px 0px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* Style Code For Carousel = = = = </> Begin */
+.OurPopularCarousel {
+    background: #fff;
+    margin: 0px 15px;
+}
+
+.OurPopularCarousel img {
+    width: 100%;
+}
+
+.OurPopularCarouselDiv {
+    padding: 25px 30px;
+    text-align: center;
+    border-bottom: 0.800px solid rgb(233, 233, 233);
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 39, 43);
+}
+
+.OurPopularCarouselStarPrice {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.OurPopularCarouselStarPrice div:first-child {
+    font-size: 14px;
+    color: rgb(245, 164, 37);
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.OurPopularCarouselStarPrice div:last-child {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(161, 44, 47);
+}

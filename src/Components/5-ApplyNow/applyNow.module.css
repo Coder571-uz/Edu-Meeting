@@ -1,0 +1,117 @@
+.ApplyNow {
+    width: 100%;
+    background: url(../../images/apply-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 0px;
+}
+
+/* Style Code For Apply Now Container </> */
+.ApplyNowContainer {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    color: #fff;
+}
+
+.ContainerItemFirst div {
+    padding: 40px;
+    margin: 0px 0px 30px 0px;
+    background: rgba(250, 250, 250, 0.15);
+}
+
+.ContainerItemFirst div h3 {
+    margin: 0px 0px 20px 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ContainerItemFirst div p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style Code For Container Item Second </> */
+.ContainerItemSecond {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    color: rgb(31, 39, 43);
+}
+
+.ContainerItemSecond div {
+    border-bottom: 0.800px solid #e4e4e4;
+    margin-bottom: 30px;
+}
+
+.ContainerItemSecond button {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background: none;
+}
+
+.ContainerItemSecond button h5 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.ContainerItemSecond button h5:focus {
+    color: rgb(245, 164, 37);
+}
+
+.ContainerItemSecondButton {
+    color: rgb(245, 164, 37);
+    transition: 0.2s;
+}
+
+.ContainerItemSecond p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 77px 0px 24px;
+    margin: 0px 0px 5px 0x;
+    line-height: 25px;
+}

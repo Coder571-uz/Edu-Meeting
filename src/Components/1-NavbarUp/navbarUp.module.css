@@ -1,0 +1,41 @@
+.NavbarUp {
+    width: 100%;
+    background: rgb(31, 39, 43);
+    color: #fff;
+    padding: 10px 0px;
+}
+
+/* Style Code For Navbar Up Container </> */
+.NavbarUpContainer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavbarUpContainer div {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.NavbarUpContainer div span {
+    color: rgb(245, 164, 37);
+}
+
+/* Style Code For Style Navbar Up Icon </> */
+.StyleNavbarUpIcon {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.StyleNavbarUpIconIN {
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.StyleNavbarUpIconIN:hover {
+    cursor: pointer;
+    color: rgb(245, 164, 37);
+}

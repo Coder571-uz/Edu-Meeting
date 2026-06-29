@@ -1,0 +1,116 @@
+.ContactUs {
+    width: 100%;
+    background: url(../../images/meetings-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 140px 0px;
+    background-position: center;
+    padding: 140px 0px 0px 0px;
+}
+
+/* Style Code For Contact Us Container </> */
+.ContactUsContainer {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style Code For Contact Us Item First </> */
+.ContactUsItemFirst {
+    width: 75%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.ContactUsItemFirst h5 {
+    padding: 0px 0px 20px 0px;
+    border-bottom: 0.800px solid #eee;
+    margin: 0px 0px 40px 0px;
+    color: rgb(31, 39, 43);
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ContactUsItemFirst div {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContactUsItemFirst input {
+    width: 280px;
+    height: 40px;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    background: #f7f7f7;
+    color: gray;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.ContactUsItemFirst textarea {
+    width: 100%;
+    height: 130px;
+    padding: 15px;
+    margin: 0px 0px 30px 0px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #f7f7f7;
+    color: gray;
+    font-size: 13px;
+}
+
+/* Style Code For Contact Us Item Second </> */
+.ContactUsItemSecond {
+    width: 23%;
+    padding: 40px;
+    background: rgb(161, 44, 47);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ContactUsItemSecond div {
+    padding: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
+    border-bottom: 0.800px solid rgba(250, 250, 250, 0.15);
+
+}
+
+.ContactUsItemSecond div h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.ContactUsItemSecond h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Style Code For Contact Us Copy Right </> */
+.ContactUsCopyRight {
+    width: 100%;
+    padding: 50px 0px 40px 0px;
+    border-top: 0.800px solid rgba(250, 250, 250, 0.15);
+    margin: 140px 0px 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ContactUsCopyRight a {
+    color: rgb(245, 164, 37);
+    text-decoration: none;
+}

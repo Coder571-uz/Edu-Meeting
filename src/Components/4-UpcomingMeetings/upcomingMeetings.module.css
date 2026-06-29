@@ -1,0 +1,138 @@
+.UpcomingMeetings {
+    width: 100%;
+    background: url(../../images//meetings-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 300px 0px 110px 0px;
+    color: rgb(33, 37, 41);
+}
+
+/* Style Code For Upcoming Meetings Container </> */
+.UpcomingMeetingsContainer {
+    width: 85%;
+    margin: auto;
+}
+
+/* Style Code For Upcoming Meetings Text </> */
+.UpcomingMeetingsText {
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
+    border-bottom: 0.1px solid rgb(71, 71, 71) !important;
+    text-align: center;
+}
+
+.UpcomingMeetingsText h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Style Code For Upcoming Meetings Catgories </> */
+.UpcomingMeetingsCatgories {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Style Code For UMCI tems One </> */
+.UMCItemsOne {
+    width: 29%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.UMCItemsOne h5 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
+    border-bottom: 0.800px solid #dbdbdb;
+}
+
+.UMCItemsOne div {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.UMCItemsOneButton {
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+    border-top: 0.800px solid #dbdbdb;
+}
+
+/* Style Code For UMC Items Two </> */
+.UMCItemsTwo {
+    width: 66%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5%;
+    row-gap: 30px;
+}
+
+.UMCItemsTwoDiv {
+    background: #fff;
+    border-radius: 30px 30px 20px 20px;
+    position: relative;
+}
+
+.UMCItemsTwoDivPrice {
+    position: absolute;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 10px;
+    top: 15px;
+    left: 20px;
+}
+
+.UMCItemsTwoDiv img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+/* Style Code For Items Two Div Texts </> */
+.ItemsTwoDivTexts {
+    padding: 30px;
+    display: flex;
+    gap: 5%;
+}
+
+.ItemsTwoDate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ItemsTwoDate div:first-child {
+    color: rgb(161, 44, 47);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.ItemsTwoDate div:last-child {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Style Code For Items Two Paragraph </> */
+.ItemsTwoParagraph h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+
+.ItemsTwoParagraph p {
+    width: 70%;
+    font-size: 14px;
+    font-weight: 400;
+}
